@@ -1,6 +1,6 @@
 {
   "name": "adb-screencap",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Take Android screenshots from node",
   "main": "./cli.js",
   "scripts": {
@@ -20,7 +20,6 @@
     "android",
     "screencap"
   ],
-  "preferGlobal" : true,
   "bin": {
     "screencap" : "./cli.js",
     "adb-screencap" : "./cli.js"
