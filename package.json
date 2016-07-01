@@ -1,8 +1,8 @@
 {
   "name": "adb-screencap",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Take Android screenshots from node",
-  "main": "./lib/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha tests/* --compilers js:babel-core/register -t 15s",
     "build": "./node_modules/babel-cli/bin/babel.js lib -d dist",
